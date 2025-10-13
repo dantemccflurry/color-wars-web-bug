@@ -28,3 +28,16 @@ Thanks to all authors of these libraries for making Color Wars possible!
    [React]: <https://github.com/facebook/react>
    [Konva]: <https://github.com/konvajs/konva>
    [react-bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
+
+   How to run the code
+
+Install NVM (Node Version Manager)
+https://github.com/nvm-sh/nvm
+When in codebase directory, enter nvm install 16
+
+Enter nvm use 16
+
+You will be prompted for some changes done to computer, you can pick the default amount
+Enter npm install
+Enter npm start
+
