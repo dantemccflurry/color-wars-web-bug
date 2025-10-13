@@ -32,10 +32,12 @@ Thanks to all authors of these libraries for making Color Wars possible!
 ## How to run the code
 
 Install NVM (Node Version Manager)
-https://github.com/nvm-sh/nvm
-When in codebase directory, enter nvm install 16
 
-Enter nvm use 16
+https://github.com/nvm-sh/nvm
+
+When in codebase directory, enter nvm install 16 into the terminal
+
+Enter nvm use 16 into the terminal
 
 You will be prompted for some changes done to computer, you can pick the default amount
 Enter npm install
