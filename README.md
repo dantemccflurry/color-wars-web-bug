@@ -29,7 +29,7 @@ Thanks to all authors of these libraries for making Color Wars possible!
    [Konva]: <https://github.com/konvajs/konva>
    [react-bootstrap]: <https://github.com/react-bootstrap/react-bootstrap>
 
-   How to run the code
+## How to run the code
 
 Install NVM (Node Version Manager)
 https://github.com/nvm-sh/nvm
