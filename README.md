@@ -40,6 +40,8 @@ When in codebase directory, enter nvm install 16 into the terminal
 Enter nvm use 16 into the terminal
 
 You will be prompted for some changes done to computer, you can pick the default amount
+
 Enter npm install
+
 Enter npm start
 
