@@ -26,14 +26,14 @@ class Tails extends React.Component<Props, object> {
 
 
   shouldComponentUpdate(nextProps: Props) {
-    if (
-      nextProps.tails === this.props.tails &&
-      nextProps.dimension === this.props.dimension
-    ) {
-      return false;
-    }
-    return true;
+  if (
+    nextProps.tails === this.props.tails ||
+    nextProps.dimension === this.props.dimension
+  ) {
+    return false;
   }
+  return true;
+}
 
 
   render() {
@@ -81,7 +81,7 @@ class Tails extends React.Component<Props, object> {
 
 
         let X, Y;
-        ({ X, Y } = layouter(nextProps.dimension, this.canvasDimension, p));
+        ({ X, Y } = layouter(this.props.dimension, this.canvasDimension, p));
 
 
         let clone = this.tailPrototypes[i].clone({
