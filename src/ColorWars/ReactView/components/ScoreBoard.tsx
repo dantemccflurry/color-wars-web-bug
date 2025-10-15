@@ -69,9 +69,9 @@ function scoreBoardLayouter(
     position === 0 ? 0 : values.slice(0, position).reduce((a, b) => a + b, 0);
 
   return {
-    X: Math.floor((dim.X * x) / total),
-    Y: 0,
-    Width: Math.floor((dim.X * values[position]) / total),
-    Height: dim.Y
-  };
+  X: Math.floor((dim.X * values[position]) / total), 
+  Y: 0,
+  Width: Math.floor((dim.X * x) / total),          
+  Height: dim.Y
+};
 }
