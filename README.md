@@ -45,3 +45,6 @@ Enter npm install
 
 Enter npm start
 
+## Expected Behavior 
+As shown in the video above, there are multiple players that compete in covering more space in there colors by making quadrilateral shapes. There is a bar that represents the proportion of the canvas the players have covered. 
+
