@@ -33,7 +33,7 @@ Thanks to all authors of these libraries for making Color Wars possible!
 
 Install NVM (Node Version Manager)
 
-https://github.com/nvm-sh/nvm
+[https://github.com/nvm-sh/nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 
 When in codebase directory, enter nvm install 16 into the terminal
 
