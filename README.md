@@ -33,7 +33,7 @@ Thanks to all authors of these libraries for making Color Wars possible!
 
 Install NVM (Node Version Manager)
 
-https://github.com/nvm-sh/nvm
+[https://github.com/nvm-sh/nvm](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
 
 When in codebase directory, enter nvm install 16 into the terminal
 
@@ -44,4 +44,8 @@ You will be prompted for some changes done to computer, you can pick the default
 Enter npm install
 
 Enter npm start
+
+## Expected Behavior 
+As shown in the video above, there are multiple players that compete in covering more space in there colors by making quadrilateral shapes. There is a bar that represents the proportion of the canvas the players have covered. 
+
 
